@@ -1,0 +1,109 @@
+div#barker_container{
+    background-image: url('http://www.trbimg.com/img-552bf120/turbine/hc-mytowns-headlines-barker-background');
+    height:220px;
+}
+div#hed{
+  position:relative;
+  left:0;
+  padding:15px 0 15px 20px;
+  clear:both;
+}
+div#hed img{
+  float:left;
+  margin-right:15px;
+}
+div#hed form{
+  float:left;
+  padding-top:3px;
+}
+div#hed form select.form-control{
+    display: block;
+    width: 100%;
+    height: 26px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+div#barker #story_group{
+  margin-top:0px;
+  padding-right:20px;
+}
+div#barker .story{
+	float:none;
+	width: 100%;
+	padding-right:0px;
+}
+div#barker .story:last-of-type{
+  display:none;
+}
+div#hed_dropdown form{
+  float:left;
+}
+div#hed_dropdown h1 a.view_more{
+  color:#1e1e1e;
+}
+div#hed_dropdown h1 a.view_more:hover{
+  color:#3C3C3C;
+}
+div#barker .story p.label{
+  font-size: 11px;
+  line-height: 14px;
+  font-family: Georgia,Serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none!important;
+  letter-spacing: normal;
+}
+div#barker .story p.label span.label_time{
+  font-family:Arial, sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  color:#c8c8c8;
+  padding-left:7px;
+  letter-spacing:.5px;
+}
+div#barker .story h2{
+  margin-top:5px;
+  margin-bottom:10px;
+}
+div#barker .story h2 a{
+  font-size:18px;
+  line-height:22px;
+  font-weight:400;
+  color:#c8c8c8;
+}
+div#barker .story h2 a:hover{
+  color:#ffffff;
+}
+div#barker .story p.nutgraf{
+	margin-top:5px;
+	font-size:13px;
+  line-height:20px;	
+  color:#c8c8c8;
+}
+@media only screen and (min-width: 480px){
+  div#barker #story_group{
+    margin-top:20px;
+  }
+  div#barker .story{
+    float:left;
+    width: calc( 33% - 20px );
+    padding-right:20px;
+  }
+  div#barker .story:last-of-type{
+    display:block;
+  }
+}
