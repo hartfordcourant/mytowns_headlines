@@ -4,7 +4,7 @@
 	 */
 	function getContentItem($slug){
 		// access token
-		$P2Paccesstoken = "874ai9840kqvuyojkyqp4k49o6q56yyfa35";
+		$P2Paccesstoken = "xxx";
 		// location
 		$P2Purl = "http://content-api.p2p.tribuneinteractive.com/" . $slug; 
 		// initialize curl
